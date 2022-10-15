@@ -7,7 +7,7 @@ export default function Posts(props) {
         {console.log(props)}
         {props.posts.map(post => (
             <div key={post.id}>
-                <Link href={`/posts/${post.id}`}>
+                <Link href={`posts/${post.id}`}>
                     {post.title}
                 </Link>
             </div>
