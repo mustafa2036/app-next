@@ -1,0 +1,11 @@
+.bg{
+    background-color: #f1f1f1;
+    padding: 1rem 1rem;
+}
+
+.bg a{
+    color: #333;
+    font-size: 1rem;
+    padding-left: .5rem;
+    font-weight: bold;
+}
